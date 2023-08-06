@@ -3,6 +3,8 @@
 ### Mobile radio station performance tracker (KPI) and cluster acceptance tool (CAR). 
 > Internal application used by Ericsson.
 
+![ericsson-logo-1-2548221570](https://github.com/dax-leo/Modern.Forms.Showcases/assets/70173560/77f7951f-7010-4754-b5a0-ff1bbcf13d21)
+
 Components used: 
 - Modern.Forms core library (with some local modifications)
 - My own (old) datagrid component (ported from WinForms)
