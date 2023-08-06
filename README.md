@@ -1,5 +1,4 @@
-# Modern.Forms.Showcase
-Reall world application example built using Modern.Forms.
+# Reall world application example built using Modern.Forms.
 
 # Mobile radio station performance tracker (KPI) and cluster acceptance tool (CAR). Built for Ericsson GmbH, Germany.
 Components used: 
