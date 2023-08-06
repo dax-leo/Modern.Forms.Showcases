@@ -1,7 +1,7 @@
 # Modern.Forms.Showcases
 Few real world applications built using Modern.Forms.
 
-# Mobile Radio station performance tracker and cluster acceptance tool (CAR). Built for Ericsson GmbH, Germany.
+# Mobile radio station performance tracker (KPI) and cluster acceptance tool (CAR). Built for Ericsson GmbH, Germany.
 Components used: 
 - Modern.Forms core library (with some local modifications)
 - my own datagrid component (migrated from WinForms)
