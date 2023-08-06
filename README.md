@@ -9,7 +9,6 @@ Components used:
 - Modern.Forms core library (with some local modifications)
 - My own (old) datagrid component (ported from WinForms)
 - ReoGrid - ported from WinForms
-- Epplus - excel generator
 - GMAP.NET - ported from WinForms
 - Calendar Drop Down component - ported from WinForms
 - ScottPlot - port to ModernForms
