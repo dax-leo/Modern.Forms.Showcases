@@ -1,6 +1,6 @@
 # Reall world application example built using Modern.Forms.
 
-# Mobile radio station performance tracker (KPI) and cluster acceptance tool (CAR). Built for Ericsson GmbH, Germany.
+# Mobile radio station performance tracker (KPI) and cluster acceptance tool (CAR). Internal application used by Ericsson GmbH, Germany.
 Components used: 
 - Modern.Forms core library (with some local modifications)
 - my own datagrid component (migrated from WinForms)
