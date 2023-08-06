@@ -1,4 +1,4 @@
-# Modern.Forms.Showcases
+# Modern.Forms.Showcase
 Few real world applications built using Modern.Forms.
 
 # Mobile radio station performance tracker (KPI) and cluster acceptance tool (CAR). Built for Ericsson GmbH, Germany.
@@ -23,8 +23,19 @@ Components used:
 Popup Charts with interactive control (zoom etc.)
 ![33748](https://github.com/dax-leo/Modern.Forms.Showcases/assets/70173560/0e46fd80-8613-44d4-9b79-31fbad4f7383)
 
-# Conclusion
+# Conclusion:
+- Despite all weak points and missing functionallity I like working with Modern.Forms. Avalonia team did very good job building up base for Avalonia UI. What I don't like is use of WPF/XAML style and overload with so many features, many focused on mobile. In many cases (even for larger business desktop applications) having simple forms with backend Model-View-Presenter approach is perfectly fine. There are many excellent WinForms controls out there. The goal of my repository (Modern.Forms.Toolkit) is to migrate many of those to Skia suported environemnt.
 
 Positive:
-- multi OS platform using WinForms style
-- 
+- Multi OS platform using WinForms style (if you are wpf/xaml hater :).
+- Very easy to design and control UI components (even without designer tool).
+- Trimming + NativeAoT support (unlike WinForms there are no COM limitations).
+- Modern look and feel.
+- Solid performance for CPU based rendering (Skia).
+- Relatively small application size and low memory usage (but only when using single buffer modification).
+
+Negative:
+- Requires some effort (and Skia knowledge) to port WinForm controls.
+- Control based buffers and re-rendering controls for each frame is not the best design choice for larger applications. I had to modify paint methods to use single buffer and render only invalidated controls. This boosted performance significantly.
+- Working with separate Form objects is tricky and needs to be improved. Had to apply some tricks to achieve wanted behavior and avoid memory leaks.
+- When designing or porting old WinForms controls you must pay special attention to scaling. Many old WinForms control don't have good layout functionallity, so you might loose lot of time finding ways around it.
