@@ -1,7 +1,7 @@
 # Real world application example (using Modern.Forms).
 
 ### Mobile radio station performance tracker (KPI) and cluster acceptance tool (CAR). 
-> Internal application used by Ericsson GmbH, Germany.
+> Internal application used by Ericsson.
 
 Components used: 
 - Modern.Forms core library (with some local modifications)
