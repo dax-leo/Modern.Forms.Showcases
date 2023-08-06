@@ -4,7 +4,7 @@ Few real world applications built using Modern.Forms.
 # Mobile Radio station performance tracker and cluster acceptance tool (CAR). Built for Ericsson GmbH, Germany.
 Components used: 
 - Modern.Forms core library (with some local modifications)
-- private datagrid component (migrated from WinForms)
+- my own datagrid component (migrated from WinForms)
 - ReoGrid - migrated from WinForms
 - Epplus - excel generator
 - GMAP.NET - migrated from WinForms
