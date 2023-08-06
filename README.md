@@ -39,6 +39,6 @@ Positive:
 
 Negative:
 - Requires some effort (and Skia knowledge) to port WinForm controls.
-- Control based buffers and re-rendering controls for each frame is not the best design choice for larger applications. I had to modify paint methods to use single buffer and render only invalidated controls. This boosted performance significantly.
+- Control based buffers and re-rendering full frame each time is not the best design choice for larger applications. I had to modify paint methods to use single buffer and render only invalidated controls. This boosted performance significantly.
 - Working with separate Form objects is tricky and needs to be improved. Had to apply some tricks to achieve wanted behavior and avoid memory leaks.
 - When designing or porting old WinForms controls you must pay special attention to scaling. Many old WinForms control don't have good layout functionallity, so you might loose lot of time finding ways around it.
