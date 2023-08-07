@@ -17,10 +17,10 @@ Components used:
 # Main View
 ![33747](https://github.com/dax-leo/Modern.Forms.Showcases/assets/70173560/fc02b8d5-f969-4e96-8f7a-a333e4f85a50)
 
-# Report control
+# Reports with spreadsheets
 ![33749](https://github.com/dax-leo/Modern.Forms.Showcases/assets/70173560/bfe7491f-c30e-435e-9ca1-c5987cec8dae)
 
-# Data Analysis
+# Reports with charts
 ![33745](https://github.com/dax-leo/Modern.Forms.Showcases/assets/70173560/ca87e24e-0f7e-4183-9345-ad58f2b214f6)
 
 Popup Charts with interactive control (zoom etc.)
