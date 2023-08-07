@@ -24,7 +24,7 @@ Components used:
 ![33745](https://github.com/dax-leo/Modern.Forms.Showcases/assets/70173560/ca87e24e-0f7e-4183-9345-ad58f2b214f6)
 
 Popup Charts with interactive control (zoom etc.)
-![33748](https://github.com/dax-leo/Modern.Forms.Showcases/assets/70173560/0e46fd80-8613-44d4-9b79-31fbad4f7383)
+![image](https://github.com/dax-leo/Modern.Forms.Showcases/assets/70173560/51200903-7741-4c7f-a4da-071f0ece3582)
 
 # Conclusion:
 Despite few weak points and missing functionallity I like working with Modern.Forms. Modern.Forms is partially based on Avalonia, and we all know Avalonia team did very good job building up base for Avalonia UI. What I don't like is use of WPF/XAML style and overload with so many features, many of which are focused on mobile. In many cases (even for larger business desktop applications) having simple forms with Model-View-Presenter backend is perfectly suitable choice. There are many excellent WinForms controls out there. The goal of my repository (Modern.Forms.Toolkit) is to migrate many of those to Skia suported environment.
