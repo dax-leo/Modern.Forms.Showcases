@@ -14,16 +14,16 @@ Components used:
 - Calendar Drop Down component - ported from WinForms
 - ScottPlot - port to ModernForms
 
-# Main View
+### Main View
 ![Clipboard01](https://github.com/dax-leo/Modern.Forms.Showcases/assets/70173560/14b1e961-7521-4501-be36-e2c0603ce6b1)
 
-# Reports with spreadsheets
+### Reports with spreadsheets
 ![33749](https://github.com/dax-leo/Modern.Forms.Showcases/assets/70173560/bfe7491f-c30e-435e-9ca1-c5987cec8dae)
 
-# Reports with charts
+### Reports with charts
 ![33745](https://github.com/dax-leo/Modern.Forms.Showcases/assets/70173560/ca87e24e-0f7e-4183-9345-ad58f2b214f6)
 
-# Popup Charts with interactive control (zoom etc.)
+### Popup Charts with interactive control (zoom etc.)
 ![image](https://github.com/dax-leo/Modern.Forms.Showcases/assets/70173560/51200903-7741-4c7f-a4da-071f0ece3582)
 
 Positive:
