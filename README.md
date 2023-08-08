@@ -23,7 +23,7 @@ Components used:
 # Reports with charts
 ![33745](https://github.com/dax-leo/Modern.Forms.Showcases/assets/70173560/ca87e24e-0f7e-4183-9345-ad58f2b214f6)
 
-Popup Charts with interactive control (zoom etc.)
+# Popup Charts with interactive control (zoom etc.)
 ![image](https://github.com/dax-leo/Modern.Forms.Showcases/assets/70173560/51200903-7741-4c7f-a4da-071f0ece3582)
 
 Positive:
