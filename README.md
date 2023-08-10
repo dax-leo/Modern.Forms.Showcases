@@ -21,7 +21,7 @@ Components used:
 ![image](https://github.com/dax-leo/Modern.Forms.Showcases/assets/70173560/f0625b10-1efa-4206-85c9-dbeec3134bc5)
 
 ### Reports with spreadsheets
-![image](https://github.com/dax-leo/Modern.Forms.Showcases/assets/70173560/208a3237-1a73-4cb0-b714-a8b47907e493)
+![image](https://github.com/dax-leo/Modern.Forms.Showcases/assets/70173560/298e061f-ab21-4eb6-b0f4-7fd4f40173ae)
 
 ### Reports with charts
 ![image](https://github.com/dax-leo/Modern.Forms.Showcases/assets/70173560/cffe7305-46f2-4d66-8c68-745c0e47528b)
