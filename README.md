@@ -1,4 +1,4 @@
-# Real world application example (using Modern.Forms).
+# Real-world LoB application example (using Modern.Forms).
 
 ### Mobile radio station performance tracker (KPI) and cluster acceptance tool (CAR). 
 > Internal application used by Ericsson.  
