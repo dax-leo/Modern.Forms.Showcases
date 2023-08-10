@@ -29,6 +29,10 @@ Components used:
 ### Popup Charts with interactive control (zoom etc.)
 ![image](https://github.com/dax-leo/Modern.Forms.Showcases/assets/70173560/404e24e2-1d8b-4518-b2ae-2b621e392b31)
 
+### Complex node/time filtering
+![image](https://github.com/dax-leo/Modern.Forms.Showcases/assets/70173560/b5f24c69-1ead-471b-9dc0-8cb444cd9901)
+
+
 Positive:
 - Multi OS platform using WinForms style (if you are wpf/xaml hater :).
 - Eeasy to design and control UI components (even without designer tool).
