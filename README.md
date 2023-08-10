@@ -1,38 +1,41 @@
 # Real world application example (using Modern.Forms).
 
 ### Mobile radio station performance tracker (KPI) and cluster acceptance tool (CAR). 
-> Internal application used by Ericsson. 
+> Internal application used by Ericsson.  
+> Application Backend: WebAPI, MediatR/Hangfire, Postgres/PostGIS db, Time series ML processing etc.  
+> Purpose : anomaly detection for newly integrated Ericsson Mobile station radio units and baseband controllers.
 
 ![ericsson-logo-1-2548221570](https://github.com/dax-leo/Modern.Forms.Showcases/assets/70173560/77f7951f-7010-4754-b5a0-ff1bbcf13d21)
 
+
+
 Components used: 
-- Modern.Forms core library (with some local modifications)
-- Backend: WebAPI, MediatR + Hangfire.
-- My own (old) datagrid component (ported from WinForms)
-- ReoGrid - ported from WinForms
-- GMAP.NET - ported from WinForms
-- Calendar Drop Down component - ported from WinForms
-- ScottPlot - port to ModernForms
+- Modern.Forms core library (with some local modifications, mostly rendering improv.).
+- My own (old) datagrid component (ported from WinForms). This is something where I spent most of my time.
+- ReoGrid - ported from WinForms. Partial port. Without pdf, printing and scripting - didn't need those.
+- GMAP.NET - ported from WinForms - reused Winforms code + added my own WMS impelementation.
+- Calendar and Calendar Drop Down component - ported from WinForms.
+- ScottPlot - port to ModernForms (ScottPlot is already based on Skia hence only thin wrapper around it is needed for Modern Forms control).
 
 ### Main View
-![image](https://github.com/dax-leo/Modern.Forms.Showcases/assets/70173560/9e952416-b2c5-4703-a255-d7aafed90687)
+![image](https://github.com/dax-leo/Modern.Forms.Showcases/assets/70173560/f0625b10-1efa-4206-85c9-dbeec3134bc5)
 
 ### Reports with spreadsheets
-![33749](https://github.com/dax-leo/Modern.Forms.Showcases/assets/70173560/bfe7491f-c30e-435e-9ca1-c5987cec8dae)
+![image](https://github.com/dax-leo/Modern.Forms.Showcases/assets/70173560/208a3237-1a73-4cb0-b714-a8b47907e493)
 
 ### Reports with charts
-![33745](https://github.com/dax-leo/Modern.Forms.Showcases/assets/70173560/ca87e24e-0f7e-4183-9345-ad58f2b214f6)
+![image](https://github.com/dax-leo/Modern.Forms.Showcases/assets/70173560/cffe7305-46f2-4d66-8c68-745c0e47528b)
 
 ### Popup Charts with interactive control (zoom etc.)
-![image](https://github.com/dax-leo/Modern.Forms.Showcases/assets/70173560/51200903-7741-4c7f-a4da-071f0ece3582)
+![image](https://github.com/dax-leo/Modern.Forms.Showcases/assets/70173560/404e24e2-1d8b-4518-b2ae-2b621e392b31)
 
 Positive:
 - Multi OS platform using WinForms style (if you are wpf/xaml hater :).
-- Very easy to design and control UI components (even without designer tool).
-- Trimming + NativeAoT support (unlike WinForms there are no COM limitations).
+- Eeasy to design and control UI components (even without designer tool).
+- Trimming + NativeAoT support (unlike WinForms no need to deal with COM nightmare).
 - Modern look and feel.
 - Solid performance for CPU based rendering (Skia).
-- Relatively small application size and low memory usage (only when using single buffer modification).
+- Relatively small application size and low memory usage (only when using (my own) single buffer modification).
 
 Negative:
 - Requires some effort (and Skia knowledge) to port WinForm controls.
