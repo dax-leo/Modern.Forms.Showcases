@@ -15,7 +15,7 @@ Components used:
 - ScottPlot - port to ModernForms
 
 ### Main View
-![Clipboard01](https://github.com/dax-leo/Modern.Forms.Showcases/assets/70173560/14b1e961-7521-4501-be36-e2c0603ce6b1)
+![image](https://github.com/dax-leo/Modern.Forms.Showcases/assets/70173560/9e952416-b2c5-4703-a255-d7aafed90687)
 
 ### Reports with spreadsheets
 ![33749](https://github.com/dax-leo/Modern.Forms.Showcases/assets/70173560/bfe7491f-c30e-435e-9ca1-c5987cec8dae)
