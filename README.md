@@ -15,7 +15,7 @@ Components used:
 - ReoGrid - ported from WinForms. Partial port. Without pdf, printing and scripting - didn't need those.
 - GMAP.NET - ported from WinForms - reused Winforms code + added my own WMS impelementation.
 - Calendar and Calendar Drop Down component - ported from WinForms.
-- ScottPlot - port to ModernForms (ScottPlot is already based on Skia hence only thin wrapper around it is needed for Modern Forms control).
+- ScottPlot - port to ModernForms (ScottPlot is already based on Skia hence only thin wrapper is needed to work with Modern Forms control).
 
 ### Main View
 ![image](https://github.com/dax-leo/Modern.Forms.Showcases/assets/70173560/f0625b10-1efa-4206-85c9-dbeec3134bc5)
